@@ -18,6 +18,10 @@
 		93B1C8482BB0A8F600565670 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1C8472BB0A8F600565670 /* DownloadsViewController.swift */; };
 		93B1C84F2BB0B46200565670 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1C84E2BB0B46200565670 /* CollectionViewTableViewCell.swift */; };
 		93B1C8512BB0D40600565670 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1C8502BB0D40600565670 /* HeroHeaderUIView.swift */; };
+		93B1C8532BB0EE1000565670 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1C8522BB0EE1000565670 /* APICaller.swift */; };
+		93B1C8552BB0F72200565670 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1C8542BB0F72200565670 /* Movie.swift */; };
+		93B1C8572BB0FA0700565670 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1C8562BB0FA0700565670 /* Extensions.swift */; };
+		93B1C8592BB0FC7E00565670 /* Tv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1C8582BB0FC7E00565670 /* Tv.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		93B1C8472BB0A8F600565670 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		93B1C84E2BB0B46200565670 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		93B1C8502BB0D40600565670 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		93B1C8522BB0EE1000565670 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		93B1C8542BB0F72200565670 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		93B1C8562BB0FA0700565670 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		93B1C8582BB0FC7E00565670 /* Tv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tv.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,8 @@
 		93B1C84B2BB0B41E00565670 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				93B1C8542BB0F72200565670 /* Movie.swift */,
+				93B1C8582BB0FC7E00565670 /* Tv.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -119,6 +129,7 @@
 		93B1C84C2BB0B42300565670 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				93B1C8562BB0FA0700565670 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -126,6 +137,7 @@
 		93B1C84D2BB0B42900565670 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				93B1C8522BB0EE1000565670 /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -203,11 +215,15 @@
 				93B1C8462BB0A8E800565670 /* SearchViewController.swift in Sources */,
 				93B1C8312BB0899100565670 /* MainTabBarViewController.swift in Sources */,
 				93B1C84F2BB0B46200565670 /* CollectionViewTableViewCell.swift in Sources */,
+				93B1C8532BB0EE1000565670 /* APICaller.swift in Sources */,
 				93B1C8512BB0D40600565670 /* HeroHeaderUIView.swift in Sources */,
 				93B1C8482BB0A8F600565670 /* DownloadsViewController.swift in Sources */,
 				93B1C82D2BB0899100565670 /* AppDelegate.swift in Sources */,
+				93B1C8572BB0FA0700565670 /* Extensions.swift in Sources */,
 				93B1C82F2BB0899100565670 /* SceneDelegate.swift in Sources */,
 				93B1C8442BB0A8DA00565670 /* UpcomingViewController.swift in Sources */,
+				93B1C8552BB0F72200565670 /* Movie.swift in Sources */,
+				93B1C8592BB0FC7E00565670 /* Tv.swift in Sources */,
 				93B1C8422BB0A88D00565670 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
